@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Let's code</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Start your project here-->  
+    
+    <div class="container">
+      <div id="main-Menu" class="row">
+        <div class="col-12">
+          <nav id="menu" class="navbar navbar-expand-lg navbar-light ">
+  <a id="logo"  class="navbar-brand mr-4" href="#">
+      <img id="img" src="images/lc.png" alt="letscode"  >
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+      aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul id="left-menu" class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Home</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">About us</a>
+              <a class="dropdown-item" href="#">International Partnership</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+  
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">Resources</a>
+    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+      <a class="dropdown-item" href="#">Projects</a>
+      <a class="dropdown-item" href="#">Challenges</a>
+      <a class="dropdown-item" href="#">videos</a>
+    </div>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">Community</a>
+    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+      <a class="dropdown-item" href="#">CHapters</a>
+      <a class="dropdown-item" href="#">Events</a>
+      <a class="dropdown-item" href="#">Forums</a>
+    </div>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">For bussiness</a>
+    
+  </li>
+      </ul>
+     
+      <ul id="right-menu" class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item ">
+            <a class="nav-link waves-effect waves-light" >
+              <i class="fas fa-search"></i>  
+            </a>
+          </li>
+        <li class="nav-item ">
+          <a id="login" class="nav-link waves-effect waves-light" >
+          login
+          </a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link waves-effect waves-light" >
+                <button id="button"> Sign up</button>        
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+          </nav>
+        </div>
+      </div><!--main_Menu-->
+      <div id="slider" class="row">
+  <div class="col-12">
+    <!--Carousel Wrapper-->
+    <div id="my-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false"> 
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#my-carousel" data-slide-to="1"></li>
+        <li data-target="#my-carousel" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="view">
+            <img class="d-block w-100" src="images/image1.gif"
+              alt="First slide">
+            <div class="mask rgba-black-light"></div>
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive">Let's code</h3>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100" src="images/image2.gif"
+              alt="Second slide">
+            <div class="mask rgba-black-light"></div>
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive">Let's code</h3>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100" src="images/image3.gif"
+              alt="Third slide">
+            <div class="mask rgba-black-light"></div>
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive">Let's code</h3>
+            
+          </div>
+        </div>
+       
+      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
+        <span id="slider-left" class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#my-carousel" role="button" data-slide="next">
+        <span id="slider-right" class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+  </div>
+      </div><!--slider-->
+      <div id="featured" class="row my-5 ">
+  <div id="featured-header" class="col-12 d-flex justify-content-center">
+    <h1 class="h3-responsive">Latest news</h1>
+  </div><!--featurd-header-->
+  <div id="latest" class="col-6 col-md-3">
+    
+  <div class="card">
+    <div class="view overlay">
+      <img class="card-img-top img-fluid" src="images/academy.png"
+        alt="model one">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+    <div class="card-body">
+  
+      <!-- Title -->
+      <h4 class="h3-responsive">Learning coding</h4>
+      <!-- Text -->
+      <p >Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+    </div>
+  </div>
+  </div>
+  <div  class="product col-6 col-md-3">
+    
+    <div  class="card">
+      <div class="view overlay">
+        <img class="card-img-top img-fluid" src="images/hhhh.png"
+          alt="model one">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+    
+        <!-- Title -->
+        
+            <h4 class="h3-responsive">Meeting</h4>
+        <!-- Text -->
+        <p >Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+      </div>
+    </div>
+  </div>
+  <div  class="col-6 col-md-3">
+    
+    <div  class="card">
+      <div class="view overlay">
+        <img class="card-img-top img-fluid" width="200px" height="300px" src="images/course 2.png"
+          alt="model one">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+    
+        <!-- Title -->
+        <h4 class="h3-responsive">Academy</h4>
+        <!-- Text -->
+        <p >Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div>
+  <div  class="col-6 col-md-3">
+    
+    <div  class="card">
+      <div class="view overlay">
+        <img class="card-img-top img-fluid" src="images/club.png"
+          alt="model one">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+    
+        <!-- Title -->
+        <h4 class="h3-responsive">Club</h4>
+        <!-- Text -->
+        <p >Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3 my-5">
+    
+  <div class="card">
+    <div class="view overlay">
+      <img class="card-img-top" src="images/coding.png"
+        alt="model one">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+    <div class="card-body">
+  
+      <!-- Title -->
+      <h4 class="h3-responsive">Coding</h4>
+      <!-- Text -->
+      <p >Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+    </div>
+  </div>
+  </div>
+  <div class="product col-6 col-md-3 my-5">
+    
+    <div class="card">
+      <div class="view overlay">
+        <img class="card-img-top" src="images/discussion.png"
+          alt="model one">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+    
+        <!-- Title -->
+        <h4 class="h3-responsive">Discussion</h4>
+        <!-- Text -->
+        <p >Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="product col-6 col-md-3 my-5">
+    
+  <div class="card">
+    <div class="view overlay">
+      <img class="card-img-top" src="images/science.png"
+        alt="model one">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+    <div class="card-body">
+  
+      <!-- Title -->
+      <h4 class="h3-responsive">Science</h4>
+      <!-- Text -->
+      <p >Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+    </div>
+  </div>
+  </div>
+  <div class="product col-6 col-md-3 my-5">
+    
+    <div class="card">
+      <div class="view overlay">
+        <img class="card-img-top" src="images/younglearning.png"
+          alt="model one">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+    
+        <!-- Title -->
+        <h4 class="h3-responsive">Young Learning</h4>
+        <!-- Text -->
+        <p >Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div>
+      </div><!--featured-->
+  
+      <div id="about" class="row my-5">
+  <div class="col-12">
+    <div id="about-header" class="col-12 d-flex justify-content-center">
+      <h1 class="h3-responsive h1 my-5">Previous programming Courses</h1>
+    </div><!--about-header-->
+  </div>
+  <div id="latest" class="product col-6 col-md-3">
+    
+    <div class="card">
+      <div class="view overlay">
+        <img class="card-img-top" src="images/net.png"
+          alt="model one">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+    
+        <!-- Title -->
+        <h4 class="h3-responsive" >
+         Networking</h4>
+        <!-- Text -->
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+      </div>
+    </div>
+  </div>
+  <div id="latest" class="col-6 col-md-3">
+    
+    <div class="card">
+      <div class="view overlay">
+        <img class="card-img-top" src="images/python.png"
+          alt="model one">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+    
+        <!-- Title -->
+        <h4 class="h3-responsive">python</h4>
+        <!-- Text -->
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div>
+  <div  class="col-6 col-md-3">
+    
+    <div class="card">
+      <div class="view overlay">
+        <img class="card-img-top" src="images/database.png"
+          alt="model one">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+    
+        <!-- Title -->
+        <h4 class="h3-responsive">Database</h4>
+        <!-- Text -->
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div>
+  <div  class="col-6 col-md-3">
+    
+    <div class="card">
+      <div class="view overlay">
+        <img class="card-img-top" src="images/java.png"
+          alt="model one">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+    
+        <!-- Title -->
+        <h4 class="h3-responsive">Java</h4>
+        <!-- Text -->
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div>
+    
+      </div><!--about-->
+      
+  
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+  
+  </body>
+  
+  <footer>
+    <div class="container">
+      <div id="footer" class="row">
+          <div class="col-lg-4">
+            <h4 class="h3-responsive">Benefits of learning coding</h4>
+            <ul>
+                <li>Coding can help you understand technology</li>
+                <li>It can enhance problem-solving skills.</li>
+                <li>Coding can be applied to data visualisation.</li>
+                <li>Coding can complement creativity.</li>
+                <li>Coding is a universal language.</li>
+                <li>
+                    Coders are part of a community. 
+                    Coding can improve career prospects.
+                </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="h3-responsive">Let's code course</h2>
+            This Coding course builds skills that allow you to develop applications and projects that solve problems (or just offer a lot of fun). Starting with free coding courses can be an excellent way to get your feet wet and figure out a few basics before committing to a particular track.
+          </div>
+          <div class="col-lg-4">
+              <h2 class="h3-responsive">Contact</h2>
+              <div id="contact" class="col-md-5">
+                
+                  <li class="d-flex align-items-center text-muted my-4 ">
+                     
+                        <img id="mail" src="images/mailb.png" alt="">
+                    
+                   <span id="letscode">letscode@gmail.com</span>
+                  </li>
+                  <li class="d-flex align-items-center text-muted my-4 ">
+                   <img id="mail" src="images/facebook.png" alt="">
+                    <div >
+                      <span id="letscode">Facebook</span>
+                      <span id="letscode">facebook.com/Let'scode</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center text-muted">    
+                    <img id="mail" src="images/twitter.webp" alt="">
+                    <div>
+                      <span id="letscode">Twitter</span>
+                      <span id="letscode">twitter.com/LETSCODE</span>
+                    </div>
+                  </li>
+                </ul>
+              </div><!--contact-->
+          </div>
+        
+        <div class="container">
+         <div class="row py-3">
+           <div class="col-12">
+             <p id="line" class=" text-center">Copyright &copy; 2020,All Rights Reserved </p>
+           </div>
+         </div>
+       </div>
+      </div>
+    </div>
+  </footer>
+  </html>

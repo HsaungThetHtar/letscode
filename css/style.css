@@ -1,0 +1,56 @@
+#img{
+    width: 100px;
+    height: 100px;
+}
+#navbarDropdownMenuLink,#login{
+    color: purple;
+}
+#button{
+  background-color: purple;
+
+    border-radius: 10px;
+    display: inline-block;
+}
+.h3-responsive{
+    color: purple;
+}
+.carousel-caption{
+    left: 70%;
+    top: 20%;
+    text-align: left;
+    font-size: 30px;
+    width: 500px;
+    height: 200px;
+}
+#slider-left{
+    background-image: url(../images/left.png);
+    width: 50px;
+    height: 50px;
+}
+#slider-right{
+    background-image: url(../images/right.png);
+    width: 50px;
+    height: 50px;
+}
+
+#letscode{
+    color: purple;
+}
+#footer{
+    background-color: plum;
+}
+#mail{
+    height: 30px;
+    width: 40px;
+    display: inline-block;
+    margin: 10px 22px;
+    
+}
+#line{
+    border-top: 2px solid black;
+    color: purple;
+}
+#size{
+    max-width: 100%;
+    height: auto;
+}
